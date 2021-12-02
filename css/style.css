@@ -1,0 +1,296 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+/****header section****/
+
+
+.header{
+	background-color: white;
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo img{
+	width: 100px;
+	height: auto;
+}
+
+.menu-item ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 8px;
+}
+
+.menu-item ul li a{
+	color: #1e266d;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 80px;
+	transition: 0.8s;
+}
+
+.menu-item ul li a:hover{
+	color: #3498db;
+	transition: 0.8s;
+}
+
+.menu-button button{
+	background-color: #2e367d;
+	padding: 12px 32px;
+	border: none;
+	margin-top: 20px;
+	transition: 0.8s;
+}
+
+.menu-button button a{
+	color: white;
+	font-size: 16px;
+}
+
+.menu-button button:hover{
+	background-color: #3498db;
+	transition: 0.8s;
+}
+
+
+/****banner section****/
+
+
+.banner{
+	width: 100%;
+	margin: 40px 0px;
+}
+
+.banner-content{
+	display: flex;
+}
+
+.banner-left{
+	margin-top: 60px;
+}
+
+.banner-left h1{
+	color: #1e266d;
+	font-size: 45px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+.banner-left p{
+	color: #1e266d;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.banner-left button{
+	background-color: #2e367d;
+	border: none;
+	border-radius: 8px;
+	padding: 13px 30px;
+	transition: 0.8s;
+}
+
+.banner-left button a{
+	color: white;
+	font-size: 16px;
+}
+
+.banner-left button:hover{
+	background-color: #3498db;
+	transition: 0.8s;
+}
+
+.banner-right img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: inherit;
+}
+
+
+/****achievement section****/
+
+
+.achievement{
+	width: 100%;
+	padding: 60px 0px;
+}
+
+.achievement-content{
+	display: flex;
+}
+
+.achievement-left, .achievement-centre, .achievement-right{
+	color: #fff;
+	border-radius: 8px;
+	padding: 20px 50px;
+	flex-basis: 33%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.achievement-left{
+	background-color: #f9799a;
+}
+
+.achievement-left:hover{
+	
+}
+
+.achievement-centre{
+	background-color: #61c4d8;
+}
+
+.achievement-right{
+	background-color: #1e266d;
+}
+
+.achievement-left h3, .achievement-centre h3, .achievement-right h3{
+	font-weight: 700;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 10px;
+	line-height: 24px;
+}
+
+.achievement-left p, .achievement-centre p, .achievement-right p{
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.9;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 10px;
+}
+
+
+/****address section****/
+
+
+.address{
+	width: 100%;
+	padding: 60px 0px;
+}
+
+.address-content{
+	display: flex;
+	background-color: #2e367d;
+	padding: 60px;
+	border-radius: 10px;
+}
+
+.address-left, .address-right{
+	flex-basis: 50%;
+}
+
+.address-left h3, .address-right h3{
+	font-size: 24px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+.address-left p, .address-right p{
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 8px;
+}
+
+
+/****footer section****/
+
+
+.footer{
+	width: 100%;
+	padding: 60px 0px;
+}
+
+.footer-content{
+	display: flex;
+}
+
+.footer-first, .footer-second, .footer-third, .footer-fourth{
+	flex-basis: 25%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.footer-first h6, .footer-second h6, .footer-third h6, .footer-fourth h6{
+	font-size: 16px;
+	color: #1e266d;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 14px;
+}
+
+.footer-first p, .footer-second p{
+	color: #91a3bb;
+	font-size: 16px;
+	line-height: 1.9;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer-third ul li, .footer-fourth ul li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.footer-third a, .footer-fourth a{
+	color: #91a3bb;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	transition: 0.8s;
+}
+
+.footer-third ul li a:hover{
+	color: #3498db;
+	margin-left: 8px;
+	transition: 0.8s;
+}
+
+.footer-fourth ul li a:hover{
+	color: #3498db;
+	margin-left: 8px;
+	transition: 0.8s;
+}
+
+/****about section****/
+
+
+.about{
+	width: 100%;
+	padding: 50px 0px;
+}
+
+.about-content h3{
+	color: #1e266d;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+.about-content p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #333;
+	font-weight: 400;
+	margin-bottom: 20px;
+	line-height: 28px;
+}
